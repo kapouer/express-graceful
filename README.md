@@ -16,5 +16,14 @@ app.listen();
 app.ready();
 ```
 
-Planned feature: wait for requests to finish before shutting down app
+## why ?
+Because in complicated setups one could need the application to be
+listening before completely initialized.
+The daemon starting the application would then let requests be handled
+to it, leading to 503 service failures from the proxy in front of the
+express application.
+
+
+## Planned feature
+wait for requests to finish before shutting down app
 

@@ -1,0 +1,24 @@
+{
+  "name": "express-graceful",
+  "version": "0.0.1",
+  "description": "Gracefully start and stop express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kapouer/express-graceful.git"
+  },
+  "keywords": [
+    "express",
+    "graceful",
+    "request",
+    "queue"
+  ],
+  "author": "Jérémy Lal <kapouer@melix.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapouer/express-graceful/issues"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "express-graceful",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gracefully start and stop express app",
   "main": "index.js",
   "scripts": {

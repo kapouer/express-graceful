@@ -10,7 +10,6 @@ module.exports = function(app) {
 			if (err) {
 				reject(err);
 			} else {
-				console.info("%s\n%s", process.title + '-' + app.settings.env, app.settings.site.href);
 				resolve();
 			}
 		};
